@@ -889,17 +889,17 @@ yt-live-chat-ticker-sponsor-item-renderer * {
 
 @font-face {
     font-family: "FONT";
-    src: url(../../xy-fool/font.ttf);
+    src: url("../../xy-fool/font.ttf");
 }
 
 @font-face {
     font-family: "FONT-JP";
-    src: url(../../xy-fool/font-jp.ttf);
+    src: url("../../xy-fool/font-jp.ttf");
 }
 
 @font-face {
     font-family: "FONT-JP-B";
-    src: url(../../xy-fool/font-jp-b.ttf);
+    src: url("../../xy-fool/font-jp-b.ttf");
 }
 
 *{
