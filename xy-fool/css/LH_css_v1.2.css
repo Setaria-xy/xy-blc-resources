@@ -948,6 +948,7 @@ yt-live-chat-text-message-renderer[is-admin="true"] #image-and-message,yt-live-c
 }
 
 yt-live-chat-text-message-renderer #image-and-message .emoji,yt-live-chat-text-message-renderer #image-and-message > img{
+  aspect-ratio: 1/1;
   height:40px !important;
   width:40px !important;
 }
