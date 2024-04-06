@@ -887,23 +887,8 @@ yt-live-chat-ticker-sponsor-item-renderer * {
 
 /*前置调整*/
 
-@font-face {
-    font-family: "FONT";
-    src: url("../../xy-fool/font.ttf");
-}
-
-@font-face {
-    font-family: "FONT-JP";
-    src: url("../../xy-fool/font-jp.ttf");
-}
-
-@font-face {
-    font-family: "FONT-JP-B";
-    src: url("../../xy-fool/font-jp-b.ttf");
-}
-
 *{
-    font-family:"FONT", "FONT-JP-B" !important;
+    font-family:"zihunxiangsujimuti","JF Dot Shinonome Marumoji 12" !important;
 }
 
 yt-live-chat-membership-item-renderer #chat-badges{
@@ -948,8 +933,9 @@ yt-live-chat-text-message-renderer[is-admin="true"] #image-and-message,yt-live-c
 }
 
 yt-live-chat-text-message-renderer #image-and-message .emoji,yt-live-chat-text-message-renderer #image-and-message > img{
-  height:40px !important;
-}
+  max-height:48px !important;
+  object-fit: contain !important;
+} 
 
 /*头像*/
 yt-live-chat-text-message-renderer yt-img-shadow{
@@ -971,7 +957,7 @@ yt-live-chat-text-message-renderer #content::before {
     content:"";
     width:78px;
     height:78px;
-    background-image:url("../../xy-fool/icon.png"); 
+    background-image:url("https://img2.imgtp.com/2024/04/07/BfLGNeuL.png"); 
     background-size:contain;
     background-repeat:no-repeat;
     position:absolute;
@@ -1023,7 +1009,7 @@ yt-live-chat-text-message-renderer[privilegetype="0"] #content{
     border: 0px solid transparent;
     border-image-slice: 70 10 25 10 fill; 
     border-width: 45px 5px 18px 5px;
-    border-image-source: url("../../xy-fool/none.png"); 
+    border-image-source: url("https://img2.imgtp.com/2024/04/07/2hvUollT.png"); 
 }
 
 yt-live-chat-text-message-renderer[is-admin="true"] #content,yt-live-chat-text-message-renderer[author-type="owner"] #content,yt-live-chat-text-message-renderer[author-type="member"] #content{
@@ -1042,23 +1028,23 @@ yt-live-chat-text-message-renderer[is-admin="true"] #content,yt-live-chat-text-m
 }
 
 yt-live-chat-text-message-renderer[is-admin="true"] #content{
-    border-image-source: url("../../xy-fool/admin.png"); 
+    border-image-source: url("https://img2.imgtp.com/2024/04/07/caLbkB3U.png"); 
 }
 
 yt-live-chat-text-message-renderer[author-type="owner"] #content{
-    border-image-source: url("../../xy-fool/admin.png"); 
+    border-image-source: url("https://img2.imgtp.com/2024/04/07/caLbkB3U.png"); 
 }
 
 yt-live-chat-text-message-renderer[privilegetype="1"] #content{
-    border-image-source: url("../../xy-fool/member3.png"); 
+    border-image-source: url("https://img2.imgtp.com/2024/04/07/lOGjlR31.png"); 
 }
 
 yt-live-chat-text-message-renderer[privilegetype="2"] #content{
-    border-image-source: url("../../xy-fool/member2.png"); 
+    border-image-source: url("https://img2.imgtp.com/2024/04/07/eFgFUMpA.png"); 
 }
 
 yt-live-chat-text-message-renderer[privilegetype="3"] #content{
-    border-image-source: url("../../xy-fool/member1.png"); 
+    border-image-source: url("https://img2.imgtp.com/2024/04/07/AF9wpZ3q.png"); 
 }
 
 /*消息框水印*/
@@ -1073,7 +1059,7 @@ yt-live-chat-text-message-renderer #content::after{
 yt-live-chat-text-message-renderer[privilegetype="0"] #content::after{
     width:132px;
     height:132px;
-    background-image:url("../../xy-fool/menber-none.png"); 
+    background-image:url("https://img2.imgtp.com/2024/04/07/c8Qin8iG.png"); 
     right:-34px;
     bottom:-75px;
 }
@@ -1081,7 +1067,7 @@ yt-live-chat-text-message-renderer[privilegetype="0"] #content::after{
 yt-live-chat-text-message-renderer[is-admin="true"] #content::after{
     width:144px;
     height:144px;
-    background-image:url("../../xy-fool/menber0-emoji.png"); 
+    background-image:url("https://img2.imgtp.com/2024/04/07/8GeLbHRf.png"); 
     right:-36px;
     bottom:-86px;
 }
@@ -1089,7 +1075,7 @@ yt-live-chat-text-message-renderer[is-admin="true"] #content::after{
 yt-live-chat-text-message-renderer[author-type="owner"] #content::after{
     width:144px;
     height:144px;
-    background-image:url("../../xy-fool/menber0-emoji.png"); 
+    background-image:url("https://img2.imgtp.com/2024/04/07/8GeLbHRf.png"); 
     right:-36px;
     bottom:-86px;
 }
@@ -1098,7 +1084,7 @@ yt-live-chat-text-message-renderer[author-type="owner"] #content::after{
 yt-live-chat-text-message-renderer[privilegetype="1"] #content::after{
     width:108px;
     height:108px;
-    background-image:url("../../xy-fool/menber3-emoji.png"); 
+    background-image:url("https://img2.imgtp.com/2024/04/07/EnRb7QxI.png"); 
     right:-30px;
     bottom:-52px;
 }
@@ -1106,7 +1092,7 @@ yt-live-chat-text-message-renderer[privilegetype="1"] #content::after{
 yt-live-chat-text-message-renderer[privilegetype="2"] #content::after{
     width:144px;
     height:144px;
-    background-image:url("../../xy-fool/menber2-emoji.png"); 
+    background-image:url("https://img2.imgtp.com/2024/04/07/8aBJ6QgY.png"); 
     right:-27px;
     bottom:-88px;
 }
@@ -1114,7 +1100,7 @@ yt-live-chat-text-message-renderer[privilegetype="2"] #content::after{
 yt-live-chat-text-message-renderer[privilegetype="3"] #content::after{
     width:144px;
     height:144px;
-    background-image:url("../../xy-fool/menber1-emoji.png"); 
+    background-image:url("https://img2.imgtp.com/2024/04/07/R4fZwsm8.png"); 
     right:-40px;
     bottom:-85px;
 }
@@ -1197,15 +1183,15 @@ yt-live-chat-membership-item-renderer[privilegetype="3"] #header-subtext{
 }
 
 yt-live-chat-membership-item-renderer[privilegetype="1"] #header{
-    border-image-source: url("../../xy-fool/member3_sign.png");
+    border-image-source: url("https://img2.imgtp.com/2024/04/07/SxTbkRWC.png");
 }
 
 yt-live-chat-membership-item-renderer[privilegetype="2"] #header{
-    border-image-source: url("../../xy-fool/member2_sign.png");
+    border-image-source: url("https://img2.imgtp.com/2024/04/07/5d9FhzFA.png");
 }
 
 yt-live-chat-membership-item-renderer[privilegetype="3"] #header{
-    border-image-source: url("../../xy-fool/member1_sign.png");
+    border-image-source: url("https://img2.imgtp.com/2024/04/07/9nMVJjtr.png");
 }
 
 /*礼物&sc*/
@@ -1262,7 +1248,7 @@ yt-live-chat-paid-message-renderer:not([giftname="superchat"]):not([price="0"]) 
     position:absolute;
     width:49px;
     height:35px;
-    background-image:url("../../xy-fool/paid-money.png"); 
+    background-image:url("https://img2.imgtp.com/2024/04/07/Nj0IBbXh.png"); 
     right:105%;
     top:-40%;
 }
@@ -1280,7 +1266,7 @@ yt-live-chat-paid-message-renderer:not([giftname="superchat"]):not([price="0"]) 
     border: 0px solid transparent;
     border-image-slice: 0 0 0 0 fill; 
     border-width: 0px 0px 0px 0px;
-    border-image-source: url("../../xy-fool/paid.png");
+    border-image-source: url("https://img2.imgtp.com/2024/04/07/bFL8z3IQ.png");
 }
 
 /*免费礼物*/
@@ -1300,7 +1286,7 @@ yt-live-chat-paid-message-renderer:not([giftname="superchat"])[price="0"]{
     border: 0px solid transparent;
     border-image-slice: 0 0 0 0 fill; 
     border-width: 0px 0px 0px 0px;
-    border-image-source: url("../../xy-fool/paid-free.png"); 
+    border-image-source: url("https://img2.imgtp.com/2024/04/07/Hk4WtQGR.png"); 
 }
 
 yt-live-chat-paid-message-renderer:not([giftname="superchat"])[price="0"] yt-img-shadow{
@@ -1327,14 +1313,14 @@ yt-live-chat-paid-message-renderer[giftname="superchat"] #card{
     border: 0px solid transparent;
     border-image-slice: 70 10 25 10 fill; 
     border-width: 42px 5px 18px 5px;
-    border-image-source: url("../../xy-fool/sc-back.png"); 
+    border-image-source: url("https://img2.imgtp.com/2024/04/07/bvwXSABk.png"); 
 }
 
 yt-live-chat-paid-message-renderer[giftname="superchat"] #card::before{
     content:"";
     width:260px;
     height:90px;
-    background-image:url("../../xy-fool/sc-title-normal.png"); 
+    background-image:url("https://img2.imgtp.com/2024/04/07/MBSyXMen.png"); 
     background-size:contain;
     background-repeat:no-repeat;
     position:absolute;
@@ -1372,7 +1358,7 @@ yt-live-chat-paid-message-renderer[giftname="superchat"] #header::before{
     content:"";
     width:78px;
     height:78px;
-    background-image:url("../../xy-fool/icon.png"); 
+    background-image:url("https://img2.imgtp.com/2024/04/07/BfLGNeuL.png"); 
     background-size:contain;
     background-repeat:no-repeat;
     position:absolute;
@@ -1396,7 +1382,7 @@ yt-live-chat-paid-message-renderer[giftname="superchat"] #purchase-amount::befor
     content:"";
     width:54px;
     height:26px;
-    background-image:url("../../xy-fool/money-sum.png"); 
+    background-image:url("https://img2.imgtp.com/2024/04/07/Jc5pEnCu.png"); 
     background-size:contain;
     background-repeat:no-repeat;
     position:absolute;
